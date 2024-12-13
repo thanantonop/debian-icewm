@@ -14,6 +14,7 @@ sudo apt autopurge -y
 sudo apt autoclean -y
 sudo systemctl enable NetworkManager
 sudo systemctl restart NetworkManager
+sudo ufw enable
 systemctl --user --now enable wireplumber.service
 
 # Copy configuration files
